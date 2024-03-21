@@ -35,4 +35,12 @@ button{
     text-emphasis-style: bold;
 }
 
+button:hover{
+    background: #da0463;
+    color: #fff;
+    border: #fff 7px dotted;
+    transition: 0.9s;
+    flex-grow: 3;
+}
+
 

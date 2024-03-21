@@ -1,1 +1,2 @@
 # Two-Letters-Word-Rhythm
+# This is an application that helps liberian kids learn one of the most famous and challenging two letters word call S-O. SO. This app helps them learn those words the fun way through rthyming.

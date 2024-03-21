@@ -11,3 +11,7 @@ h1{
     margin: 0;
     text-decoration: underline;
 }
+
+a{
+    text-decoration: none;
+}

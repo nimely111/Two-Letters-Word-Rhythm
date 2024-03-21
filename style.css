@@ -30,6 +30,8 @@ button{
     background: #131111;
     padding: 10px;
     border: none;
+    border-radius: 10rem;
+    border: #da0463 7px dotted;
 }
 
 

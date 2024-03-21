@@ -20,3 +20,8 @@ a{
     cursor: pointer;
     text-transform: border;
 }
+
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+}

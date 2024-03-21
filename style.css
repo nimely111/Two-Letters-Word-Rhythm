@@ -43,4 +43,12 @@ button:hover{
     flex-grow: 3;
 }
 
-
+.border{
+    min-height: 700px;
+    width: 45%;
+    border: 5px yellowgreen solid;
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    border-top-width:50px;
+    border-bottom-width:20px;
+}

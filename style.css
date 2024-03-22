@@ -55,3 +55,9 @@ button:hover{
     background: #000;
     margin-top: 20px;
 }
+
+footer{
+    color: #DBEDF3;
+    font-family: sans-serif;
+    text-shadow: 0 3px #DA0463;
+}

@@ -44,7 +44,7 @@ button:hover{
 }
 
 .border{
-    min-height: 700px;
+    min-height: 500px;
     width: 35%;
     border: 5px yellowgreen solid;
     border-top-right-radius:30px;

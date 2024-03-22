@@ -70,3 +70,22 @@ footer{
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
 }
+/* styling for keypress event */
+.speech{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 700;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 30rem;
+    display: inline-block;
+    width: 120px; /*change width later*/
+    height: 120px;
+    text-align: center;
+    margin: 8px;
+    background: yellowgreen;
+    cursor: pointer;
+}

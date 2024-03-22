@@ -82,8 +82,8 @@ footer{
     text-shadow: 3px 0 #DBEDF3;
     border-radius: 30rem;
     display: inline-block;
-    width: 120px; /*change width later*/
-    height: 120px;
+    width: 100px; /*change width later*/
+    height: 100px;
     text-align: center;
     margin: 8px;
     background: yellowgreen;

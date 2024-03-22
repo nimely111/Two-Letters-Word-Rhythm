@@ -89,3 +89,7 @@ footer{
     background: yellowgreen;
     cursor: pointer;
 }
+
+button:hover{
+    color: blue;
+}

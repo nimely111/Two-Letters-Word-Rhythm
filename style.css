@@ -97,3 +97,8 @@ button:hover{
 button:active{
     color: yellowgreen;
 }
+
+.speech{
+    text-transform: uppercase;
+    line-height: 23%;
+}

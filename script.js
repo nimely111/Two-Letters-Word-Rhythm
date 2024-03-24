@@ -1,2 +1,2 @@
-const numberOfSpeechButtons = document.querySelectorAll('.speech');
+const numberOfSpeechButtons = document.querySelectorAll('.speech').length;
 console.log(numberOfSpeechButtons);

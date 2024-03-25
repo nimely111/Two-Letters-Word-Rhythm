@@ -157,3 +157,8 @@ function makeSound(key){
 
     }
 }
+
+// definition of the buttonAnimation function
+function buttonAnimation(currentKey){
+    
+}

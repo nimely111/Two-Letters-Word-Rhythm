@@ -11,5 +11,5 @@ for(let i = 0; i < numberOfSpeechButtons; i++){
         // calling the button animation function
         buttonAnimation(buttonContentClick);
         
-    })
+    });
 }

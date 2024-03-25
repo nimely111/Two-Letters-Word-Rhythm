@@ -26,5 +26,8 @@ document.addEventListener('keypress', function(){
 
 //definition of the makeSound function
 function makeSound(key){
-    
+    // initializing switch case for all letter's button
+    switch(key){
+        
+    }
 }

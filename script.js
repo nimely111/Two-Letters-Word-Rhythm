@@ -161,4 +161,7 @@ function makeSound(key){
 // definition of the buttonAnimation function
 function buttonAnimation(currentKey){
     var activeButton = document.querySelector("." + currentKey);
+
+    //add animation to all buttons
+    activeButton.classList.add('pressed');
 }

@@ -24,5 +24,5 @@ document.addEventListener('keypress', function(){
 });
 
 function makeSound(key){
-    console.log(key);
+    
 }

@@ -31,6 +31,7 @@ function makeSound(key){
         case "so":
             var So = new Audio("sounds/So.mp3");
             So.play();
+            console.log(So);
             break;
 
             case "go":

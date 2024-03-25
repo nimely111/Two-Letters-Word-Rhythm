@@ -16,5 +16,6 @@ for(let i = 0; i < numberOfSpeechButtons; i++){
 
 // add keypress event
 document.addEventListener('keypress', function(){
-    
+    //invoking the make sound function
+    makeSound(Event.key);
 })

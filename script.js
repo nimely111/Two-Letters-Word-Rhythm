@@ -21,4 +21,8 @@ document.addEventListener('keypress', function(){
 
     //invoking the makeSound buttonAnimation function
     makeSound(Event.key);
-})
+});
+
+function makeSound(key){
+    console.log(key);
+}

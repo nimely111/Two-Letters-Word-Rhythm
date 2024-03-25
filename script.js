@@ -167,6 +167,6 @@ function buttonAnimation(currentKey){
 
     //initialize timer for key press
     setTimeout(function(){
-
-    })
+        activeButton.classList.remove("pressed");
+    }, 1000);
 }

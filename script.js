@@ -23,6 +23,8 @@ document.addEventListener('keypress', function(){
     makeSound(Event.key);
 });
 
+
+//definition of the makeSound function
 function makeSound(key){
     
 }

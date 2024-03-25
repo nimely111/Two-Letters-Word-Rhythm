@@ -28,6 +28,9 @@ document.addEventListener('keypress', function(){
 function makeSound(key){
     // initializing switch case for all letter's button
     switch(key){
-        
+        case "so":
+            var So = new Audio("sounds/So.mp3");
+            So.play();
+            break;
     }
 }

@@ -159,7 +159,5 @@ const buttonAnimation = (currentKey) => {
     //add animation to all buttons
     activeButton.classList.add('pressed');
     //initialize timer for key press
-    setTimeout(() => {
-        activeButton.classList.remove("pressed");
-    }, 1000);
+    setTimeout(() => activeButton.classList.remove("pressed"), 1000);
 }

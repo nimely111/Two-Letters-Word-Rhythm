@@ -1,17 +1,17 @@
 const numberOfSpeechButtons = document.querySelectorAll('.speech');
 console.log(numberOfSpeechButtons);
 
-for(let i = 0; i < numberOfSpeechButtons.length; i++){
-    document.querySelectorAll(".speech")[i].addEventListener("click", function(){
-        let buttonContentClick = this.innerHTML;
-        console.log(buttonContentClick);
-        // calling the make sound function
-        makeSound(buttonContentClick);
-        // calling the button animation function
-        buttonAnimation(buttonContentClick);
-        
-    });
-}
+numberOfSpeechButtons.forEach(button => {
+  button.addEventListener("click", function(){
+    let buttonContentClick = this.innerHTML;
+    console.log(buttonContentClick);
+    // calling the make sound function
+    makeSound(buttonContentClick);
+    // calling the button animation function
+    buttonAnimation(buttonContentClick);
+    
+});
+})
 
 // add keypress event
 document.addEventListener('keypress', () => {

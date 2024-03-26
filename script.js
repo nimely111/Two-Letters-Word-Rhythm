@@ -23,7 +23,7 @@ document.addEventListener('keypress', () => {
 
 
 //definition of the makeSound function
-function makeSound(key){
+const makeSound = (key) => {
     // initializing switch case for all letter's button
     switch(key){
         case "so":

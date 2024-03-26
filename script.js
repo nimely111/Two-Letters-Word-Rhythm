@@ -5,7 +5,6 @@ for(let i = 0; i < numberOfSpeechButtons.length; i++){
     document.querySelectorAll(".speech")[i].addEventListener("click", function(){
         let buttonContentClick = this.innerHTML;
         console.log(buttonContentClick);
-
         // calling the make sound function
         makeSound(buttonContentClick);
         // calling the button animation function
@@ -18,7 +17,6 @@ for(let i = 0; i < numberOfSpeechButtons.length; i++){
 document.addEventListener('keypress', () => {
     //invoking the make sound function
     makeSound(Event.key);
-
     //invoking the makeSound buttonAnimation function
     makeSound(Event.key);
 });
@@ -148,11 +146,6 @@ function makeSound(key){
               var Do = new Audio('sounds/Do.mp3');
               Do.play();
               break;
-
-              case "button":
-                var Btn = new Audio('sounds/RhymeNext.mp3');
-                Btn.play();
-                break;
 
     default: console.log(key);
 

@@ -153,7 +153,7 @@ function makeSound(key){
 }
 
 // definition of the buttonAnimation function
-function buttonAnimation(currentKey){
+const buttonAnimation = (currentKey) => {
     var activeButton = document.querySelector("." + currentKey);
 
     //add animation to all buttons

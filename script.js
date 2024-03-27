@@ -27,22 +27,22 @@ const makeSound = key => {
     // initializing switch case for all letter's button
     switch(key){
         case "so":
-            let So = new Audio("sounds/So.mp3");
-            So.play();
-            console.log(So);
-            break;
+        let So = new Audio("sounds/So.mp3");
+        So.play();
+        console.log(So);
+        break;
 
-            case "go":
+      case "go":
       let Go = new Audio("sounds/Go.mp3");
       Go.play();
       break;
 
-    case "lo":
+      case "lo":
       let Lo = new Audio('sounds/Lo.mp3');
       Lo.play();
       break;
 
-    case "no":
+      case "no":
       let No = new Audio('sounds/No.mp3');
       No.play();
       break;

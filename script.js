@@ -29,7 +29,6 @@ const makeSound = key => {
         case "so":
         let So = new Audio("sounds/So.mp3");
         So.play();
-        console.log(So);
         break;
 
       case "go":

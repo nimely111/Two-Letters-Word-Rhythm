@@ -47,22 +47,22 @@ const makeSound = key => {
       break;
 
     case "he":
-      var He = new Audio('sounds/He.mp3');
+      let He = new Audio('sounds/He.mp3');
       He.play();
       break;
 
     case "be":
-      var Be = new Audio('sounds/Be.mp3');
+      let Be = new Audio('sounds/Be.mp3');
       Be.play();
       break;
 
     case "me":
-      var Me = new Audio('sounds/Me.mp3');
+      let Me = new Audio('sounds/Me.mp3');
       Me.play();
       break;
 
       case "we":
-      var We = new Audio('sounds/We.mp3');
+      let We = new Audio('sounds/We.mp3');
       We.play();
       break;
 

@@ -27,7 +27,7 @@ const makeSound = key => {
     // initializing switch case for all letter's button
     switch(key){
         case "so":
-        let So = new Audio("sounds/So.mp3");
+        let So = new Audio("sounds/s-o.wav");
         So.play();
         break;
 

@@ -32,7 +32,7 @@ const makeSound = key => {
         break;
 
       case "go":
-      let Go = new Audio("sounds/Go.mp3");
+      let Go = new Audio("sounds/g-o.wav");
       Go.play();
       break;
 

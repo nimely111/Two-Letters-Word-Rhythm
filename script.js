@@ -127,7 +127,7 @@ const makeSound = key => {
               break;
 
               case "by":
-          var By = new Audio('sounds/By.mp3');
+          var By = new Audio('sounds/b-y.wav');
           By.play();
           break;
 

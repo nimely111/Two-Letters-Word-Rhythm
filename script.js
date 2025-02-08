@@ -42,7 +42,7 @@ const makeSound = key => {
       break;
 
       case "no":
-      let No = new Audio('sounds/No.mp3');
+      let No = new Audio('sounds/n-o.wav');
       No.play();
       break;
 

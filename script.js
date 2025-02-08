@@ -77,7 +77,7 @@ const makeSound = key => {
         break;
   
       case "an":
-        var An = new Audio('sounds/An.mp3');
+        var An = new Audio('sounds/a-n.wav');
         An.play();
         break;
   
